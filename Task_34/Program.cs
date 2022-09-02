@@ -2,11 +2,11 @@
 
 // Задайте массив заполненный случайными положительными трёхзначными числами
 
-Console.WriteLine("Введите количество значений в массиве: ");
+Console.Write("Введите количество значений в массиве: ");
 int length = int.Parse(Console.ReadLine()!);
-// Console.WriteLine ("Введите начало диапозона возможных значений в массиве: ");
+// Console.Write ("Введите начало диапозона возможных значений в массиве: ");
 // int begin = int.Parse(Console.ReadLine()!);
-// Console.WriteLine ("Введите конец диапозона возможных значений в массиве: ");
+// Console.Write ("Введите конец диапозона возможных значений в массиве: ");
 // int end = int.Parse(Console.ReadLine()!);
 
 void FillArray(int[] random_arr1, int begin, int end)
@@ -27,7 +27,7 @@ void PrintArray(int[] random_arr2)
     Console.WriteLine("Печать массива:");
     while (ind2 < legth2)
     {
-        Console.Write($"{random_arr2[ind2]}, ");
+        Console.Write($"{random_arr2[ind2]} ");
         ind2++;
     }
 }
